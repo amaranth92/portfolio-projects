@@ -1,23 +1,41 @@
 # Nagalttae
 
-Toss In-App project.
+![Nagalttae app logo](../assets/nagalttae-logo.png)
 
-Nagalttae is a mobile in-app project developed for the Toss app environment. The project focused on a lightweight user flow that can run naturally inside an existing mobile app context.
+Toss In-App weather preparation mini app.
+
+Nagalttae, also described as Weather Mate for Toss In-App, helps users quickly decide what to bring before leaving for work. It uses location-based weather data to recommend items such as an umbrella, sunscreen, mask, gloves, or hot pack.
 
 ## Role
 
-- In-app user flow planning
-- Mobile-first UI structure
-- Toss In-App environment consideration
-- Portfolio/public documentation
+- Mobile-first product planning
+- Toss In-App/WebView UI flow design
+- React and TypeScript implementation
+- Weather-based checklist logic
+- Alarm and reminder interaction design
 
-## Focus
+## Core Features
 
-- Keep the experience short and easy to enter
-- Fit the flow into a mobile in-app context
-- Avoid unnecessary screens
-- Present the project without exposing private source code
+- Geolocation-based weather station matching
+- Korea Meteorological Administration API data parsing
+- EUC-KR weather text decoding with `TextDecoder`
+- Weather-based item recommendation chips
+- Commute-time alarm settings with weekday and holiday options
+- Alarm modal that guides users back to the checklist
+- Long-press haptic feedback and touch drag sorting
+- Daily checklist reset after midnight
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Vanilla CSS
+- Geolocation API
+- Web Vibration API
+- TextDecoder
+- Page Visibility API
 
 ## Status
 
-Source code is private. This public page keeps a recruiter-readable summary.
+Source code is private. This page keeps a public project summary for portfolio review.
